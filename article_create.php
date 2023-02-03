@@ -105,6 +105,7 @@ class ArticleCreateCli extends CliApplication
 		$model = BaseDatabaseModel::getInstance('Article', 'ContentModel');
 
 		$article = [
+			'id'        => 0,
 			'title'     => 'Article Title', // Title
 			'alias'     => '', // Empty alias to avoid notice warnings
 			'introtext' => 'Article Text', // Text
