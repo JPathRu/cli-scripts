@@ -106,6 +106,7 @@ class ArticleCreateCli extends CliApplication
 
 		$article = [
 			'title'     => 'Article Title', // Title
+			'alias'     => '', // Empty alias to avoid notice warnings
 			'introtext' => 'Article Text', // Text
 			'catid'     => 2, // Category
 			'state'     => 0, // Publishing state
